@@ -17,7 +17,7 @@ Stochastic Tiling unfortunately produces an edge artifact which can be seen in s
 
 The project proposes a "jittering" technique which shifts the edge point by simple 2d noise
 
-![Unity_91ace5ukqO](https://github.com/user-attachments/assets/eb95e40c-ba4e-426d-a6a1-8c5395e8aced)
+![Unity_91ace5ukqO](https://github.com/user-attachments/assets/eb95e40c-ba4e-426d-a6a1-8c5395e8aced)>
 
 This project also includes an even more advanced version which takes a Property map packed as (Height, AO, Smoothness) using a software such as [Materialize](https://github.com/BoundingBoxSoftware/Materialize)
 
@@ -30,5 +30,9 @@ The height property is used to ensure our tallest terrain breaks through, which 
 The algorithm results in terrain which looks great from close and from afar
 
 ![Unity_BZpbnnDLd5](https://github.com/user-attachments/assets/02248bd9-4702-464c-b365-8ea2458de201)
+
+The included Materials have a range of settings to control the effects
+
+<img width="237" height="560" alt="Unity_zwOwIm8sMi" src="https://github.com/user-attachments/assets/2fc47cda-7de0-4cab-ae7a-4fa56b8c8133" />
 
 Future versions of this project will tackle topics such as Triplanar mapping as well as SplatMap support for Unity Terrains with height-aware blending
