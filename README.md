@@ -1,3 +1,5 @@
+<img width="2485" height="545" alt="image" src="https://github.com/user-attachments/assets/c4e16fbd-5da7-46c3-bcb2-b624f96b8dbf" />
+
 In this project, we explore a technique known as [Procedural Stochastic Tiling](https://unity.com/blog/engine-platform/procedural-stochastic-texturing-in-unity), and break out the most basic pieces so that we can build them back and learn how they work.
 
 <img width="320" height="320" alt="Unity_rtuomLUyxN" src="https://github.com/user-attachments/assets/b8d57fb2-3b2a-44fa-972e-e9c468167588" />
@@ -35,4 +37,13 @@ The included Materials have a range of settings to control the effects
 
 <img width="237" height="560" alt="Unity_zwOwIm8sMi" src="https://github.com/user-attachments/assets/2fc47cda-7de0-4cab-ae7a-4fa56b8c8133" />
 
-Future versions of this project will tackle topics such as Triplanar mapping as well as SplatMap support for Unity Terrains with height-aware blending
+This project now also supports Triplanar blending
+
+<img width="320" height="320" alt="Unity_fRDiezC7OE" src="https://github.com/user-attachments/assets/ac187f6f-32fc-4144-9fcf-7cf4ddf69fd8" />
+<img width="320" height="320" alt="Unity_rMjlGc8KHI" src="https://github.com/user-attachments/assets/4330cfbb-6f15-4897-b7c2-8244823dbb91" />
+
+The new Triplanar node takes a World Space Position and Normal to calculate the UV for any surface
+
+<img width="1059" height="675" alt="image" src="https://github.com/user-attachments/assets/55130066-7c19-4730-bad5-39fc50d8d645" />
+
+Future versions of this project will tackle SplatMap support for Unity Terrains with height-aware blending
